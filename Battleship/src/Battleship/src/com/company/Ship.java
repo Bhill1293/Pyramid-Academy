@@ -1,40 +1,43 @@
 package com.company;
 
 import java.util.ArrayList;
+import java.util.List;
+import java.util.*;
 public class Ship {
-    public static ArrayList<Ship> ships = new ArrayList<>();
-
+        public static ArrayList<Ship> ships = new ArrayList<>();
         public static boolean isOrientationSet;
         private String name;
-        private int cells;
+        public int cells;
 
         Ship(String name, int cells,boolean isOrientationSet){
             this.name = name;
             this.cells = cells;
-            this.isOrientationSet =isOrientationSet;
         }
 
         String getName(){
-            return this.name;
+            return name;
         }
 
         int getCells(){
-            return this.cells;
+            return cells;
         }
 
         boolean getOrientation() {
-            return this.isOrientationSet;
+            return isOrientationSet;
         }
 
-        void setName(String n){
+        public void setName(String n){
             name = n;
         }
 
-        void setCells(int c){
+        public void setCells(int c){
             cells = c;
         }
-
-        void setOrientation(boolean b){
-            isOrientationSet= b;
-        }
+//
+//        public boolean isShipSet (Ship shipType, ArrayList<Ship> ships, GameBoard board){
+//            int count = 0 ;
+//            for (int i = 0; i < shipType.getCells() ; i++) {
+//                if(shipType.)
+//            }
+//        }
 }
