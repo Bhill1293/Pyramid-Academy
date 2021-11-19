@@ -8,7 +8,6 @@ public class Point {
         public Point(double latitude, double longitude) {
             this.setLatitude(convertValueToRadians(latitude));
             this.setLongitude(convertValueToRadians(longitude));
-
         }
 
         // Helper function to convert degrees to radians, necessary for computing geodesic distance

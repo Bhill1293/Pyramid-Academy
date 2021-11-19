@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="362.0" prefWidth="509.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="com.example.javafxtest.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label fx:id="welcomeText" />
+   <Pane prefHeight="200.0" prefWidth="200.0">
+      <children>
+         <DatePicker layoutX="142.0" layoutY="160.0" />
+         <ChoiceBox layoutX="14.0" layoutY="47.0" prefHeight="26.0" prefWidth="48.0" />
+         <TextField accessibleHelp="%key.unspecified" accessibleText="%key.unspecified" layoutX="218.0" layoutY="14.0" prefHeight="26.0" prefWidth="185.0" />
+         <TextField accessibleHelp="%key.unspecified" accessibleText="%key.unspecified" layoutX="14.0" layoutY="14.0" prefHeight="26.0" prefWidth="185.0" text="Name" />
+      </children>
+   </Pane>
+   <ProgressBar prefHeight="20.0" prefWidth="521.0" progress="0.0" />
+</VBox>

@@ -1,4 +1,4 @@
-package boardingpass;
+package flight;
 
 public enum FlightType {
     INTERCONTINENTAL,DOMESTIC

@@ -1,10 +1,10 @@
-package boardingpass;
-import flight.Flight;
-import flight.FlightClass;
-import flight.FlightType;
+package BoardingPass;
+
+import Flight.Flight;
+
 
 import java.sql.Time;
-import java.time.*;
+import java.time.LocalDate;
 
 
 public class BoardingPass {
