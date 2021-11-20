@@ -32,20 +32,20 @@ public final class PhoneNumber {
     }
 
 
-    public static void main(String[] args) {
-        PhoneNumber a = new PhoneNumber(609, 258, 4455);
-        PhoneNumber b = new PhoneNumber(609, 876, 5309);
-        PhoneNumber c = new PhoneNumber(609, 203, 5309);
-        PhoneNumber d = new PhoneNumber(215, 876, 5309);
-        PhoneNumber e = new PhoneNumber(609, 876, 5309);
-        System.out.println("a = " + a);
-        System.out.println("b = " + b);
-        System.out.println("c = " + c);
-        System.out.println("d = " + d);
-        System.out.println("e = " + e);
-        System.out.println("b == b:      " + (b == b));
-        System.out.println("b == e:      " + (b == e));
-        System.out.println("b.equals(b): " + (b.equals(b)));
-        System.out.println("b.equals(e): " + (b.equals(e)));
-    }
+//    public static void main(String[] args) {
+//        PhoneNumber a = new PhoneNumber(609, 258, 4455);
+//        PhoneNumber b = new PhoneNumber(609, 876, 5309);
+//        PhoneNumber c = new PhoneNumber(609, 203, 5309);
+//        PhoneNumber d = new PhoneNumber(215, 876, 5309);
+//        PhoneNumber e = new PhoneNumber(609, 876, 5309);
+//        System.out.println("a = " + a);
+//        System.out.println("b = " + b);
+//        System.out.println("c = " + c);
+//        System.out.println("d = " + d);
+//        System.out.println("e = " + e);
+//        System.out.println("b == b:      " + (b == b));
+//        System.out.println("b == e:      " + (b == e));
+//        System.out.println("b.equals(b): " + (b.equals(b)));
+//        System.out.println("b.equals(e): " + (b.equals(e)));
+//    }
 }

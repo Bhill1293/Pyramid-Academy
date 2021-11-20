@@ -1,6 +1,6 @@
 package Person;
 
-import boardingpass.BoardingPass;
+import BoardingPass.BoardingPass;
 
 import java.util.ArrayList;
 
@@ -8,11 +8,10 @@ public class Person {
     private String name;
     private String email;
     private int age;
-    private Sex sex;
     private PhoneNumber phoneNumber;
     private boolean discount;
     private ArrayList<BoardingPass> boardingPass;
-
+    private Gender gender;
 
     public Person(){
     }
@@ -25,8 +24,8 @@ public class Person {
         return age;
     }
 
-    public Sex getSex(){
-        return sex;
+    public Gender getGender(){
+        return gender;
     }
 
     public PhoneNumber getPhoneNumber(){
@@ -43,8 +42,8 @@ public class Person {
 
 
     //Setters
-    public void setSex(Sex sex) {
-        this.sex = sex;
+    public void setGender(Gender gender) {
+        this.gender = gender;
     }
 
     public void setName(String name){
@@ -63,14 +62,14 @@ public class Person {
         this.age = age;
     }
 
-    public void setDiscount(int age,Sex sex){
+    public void setDiscount(int age, Gender gender){
         if (this.getAge() <= 12){
             this.discount = true;
         }
         if(this.getAge() >= 65 ){
             this.discount= true;
         }
-        if(this.getSex() == Sex.FEMALE){
+        if(this.getGender().equals("Female")){
             this.discount = true;
         }
         else
